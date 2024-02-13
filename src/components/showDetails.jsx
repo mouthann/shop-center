@@ -32,7 +32,7 @@ export function ShowDetails() {
 
         </div>
         <div className="space-x-4">
-        <button className="bg-black h-14 w-44 text-white hover:bg-gray-800 rounded mt-4  avtive:bg-gray-700">Add to Cart</button>
+        <button className="bg-black h-14 w-44 text-white hover:bg-gray-800 rounded mt-4 active:scale-75 transition active:bg-gray-700">Add to Cart</button>
         <a href="#" className="text-lg font-bold underline underline-offset-4">View details</a>
         </div>
       

@@ -32,7 +32,7 @@ const [mobileMenuShow, setMobileMenuShow]=useState(false);
       </div>
       {/* card button */}
       <div className="fixed bottom-4 left-4 mr-14  ml-14 lg:static cursor-pointer">
-        <div className="bg-slate-300 w-10 h-10 flex-center rounded-full border-slate-500 border-2 hover:bg-transparent">
+        <div className="bg-slate-300 w-10 h-10 flex-center rounded-full border-slate-500 border-2 hover:bg-gray-300 active:scale-75 transition">
         <CgShoppingCart />
         </div>
       
