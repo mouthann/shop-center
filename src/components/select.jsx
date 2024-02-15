@@ -9,7 +9,7 @@ export const Select = ({title, options}) => {
         <option value="" disabled hidden>{title}</option>
         {options.map((option) => <option key={option}>{option}</option>)}
       </select>
-      <div className="flex items-center justify-center absolute inset-y-0 right-0 pr-3">
+      <div className="pointer-events-none flex items-center justify-center absolute inset-y-0 right-0 pr-3">
       <IoIosArrowDown />
     
       </div>

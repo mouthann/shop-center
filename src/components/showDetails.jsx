@@ -1,5 +1,5 @@
 
-import nike1 from "../assets/nike1.png";
+import nike1 from "../assets/n1.png";
 import { QTY, SIZE } from "./constant";
 import { Select } from "./select";
 export function ShowDetails() {
